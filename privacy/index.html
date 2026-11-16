@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="vi" data-theme="light" data-title-vi="Chính sách quyền riêng tư | ToTimer" data-title-en="Privacy Policy | ToTimer">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F4EBDD" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14100A" media="(prefers-color-scheme: dark)">
+<script>
+(function () {
+  var d = document.documentElement;
+  try {
+    var t = localStorage.getItem('timer:theme');
+    if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    d.setAttribute('data-theme', t);
+    var l = localStorage.getItem('timer:lang');
+    if (!l) l = (navigator.language || 'vi').toLowerCase().startsWith('en') ? 'en' : 'vi';
+    d.setAttribute('lang', l);
+  } catch (e) {}
+})();
+</script>
+<title>Chính sách quyền riêng tư | ToTimer</title>
+<meta name="description" content="Chính sách quyền riêng tư của ToTimer: dữ liệu thu thập, cách sử dụng, chia sẻ và quyền kiểm soát của bạn.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://totimer.com/privacy/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/legal.css">
+</head>
+<body>
+
+<header class="legal-header" role="banner">
+  <div class="legal-header__inner">
+    <a href="/" class="nav__brand" aria-label="ToTimer">
+      <span class="wm" style="font-size:26px">ToTimer</span>
+    </a>
+    <div class="legal-header__right">
+      <div class="nav__toggles" role="group" aria-label="Display options">
+        <button class="nav__tg-btn nav__tg-btn--lang nav__tg-btn--active" data-lang="vi" aria-label="Tiếng Việt">VI</button>
+        <button class="nav__tg-btn nav__tg-btn--lang" data-lang="en" aria-label="English">EN</button>
+        <span class="nav__tg-divider"></span>
+        <button class="nav__tg-btn" id="themeToggle" aria-label="Dark mode" title="Dark mode"></button>
+      </div>
+      <a href="https://apps.apple.com/us/app/totimer-t%E1%BA%ADp-trung-gia-%C4%91%C3%ACnh/id6777914295" class="btn btn--primary btn--sm"><span>App Store</span></a>
+    </div>
+  </div>
+</header>
+
+<main class="legal-main" id="top">
+  <span class="legal-eyebrow"><span class="vi">Pháp lý</span><span class="en">Legal</span></span>
+  <h1><span class="vi">Chính sách quyền riêng tư</span><span class="en">Privacy Policy</span></h1>
+
+  <div class="vi">
+
+    <p class="legal-updated">Cập nhật lần cuối: 16/11/2026</p>
+    <p class="legal-lead">ToTimer là ứng dụng iOS giúp bạn tập trung và giữ liên lạc với người thân bằng Live Activity trên Màn khoá. Trang này giải thích ToTimer thu thập dữ liệu nào, dùng để làm gì, chia sẻ với ai và bạn kiểm soát nó như thế nào.</p>
+
+    <h2 id="p1">1. Dữ liệu chúng tôi thu thập</h2>
+    <ul>
+      <li><strong>Tài khoản:</strong> tên hiển thị, địa chỉ email, màu đại diện; số điện thoại nếu bạn nhập; mã định danh tài khoản. Bạn có thể đăng nhập bằng email và mật khẩu, Đăng nhập bằng Apple hoặc Google. Dùng ToTimer không cần tài khoản cho các tính năng chạy trên máy (ví dụ phiên tập trung cá nhân).</li>
+      <li><strong>Nội dung bạn tạo:</strong> phiên tập trung, dự án và task, việc chăm sóc (kèm ghi chú, việc nhỏ), cuộc hẹn, hành trình, lịch sử hoạt động và tiến độ (cấp độ, huy hiệu). Phần lớn lưu trên máy của bạn; các phiên chung với Circle (nhóm người thân) và dữ liệu tài khoản được đồng bộ lên máy chủ.</li>
+      <li><strong>Vị trí:</strong> chỉ khi bạn <em>bắt đầu</em> một Hành trình hoặc bắt đầu đi tới một Hẹn gặp. ToTimer dùng vị trí chính xác trên máy để tính thời gian đến (ETA) và nhận biết khi bạn đã đến. Nếu bạn chọn chia sẻ, vị trí (hoặc chỉ ETA, hoặc chỉ trạng thái, tuỳ mức bạn chọn) được gửi tới <em>những người bạn đã chọn trong phiên đó</em>. Việc theo dõi có thể tiếp tục khi app ở nền, có chỉ báo vị trí của iOS, và tự dừng khi bạn đến nơi, khi hết hạn hoặc khi bạn dừng. Vị trí đã chia sẻ bị xoá khi dừng chia sẻ hoặc khi phiên kết thúc. ToTimer không bao giờ chia sẻ vị trí của bạn khi bạn chưa bắt đầu một phiên.</li>
+      <li><strong>Số điện thoại người được mời:</strong> khi mời người thân, bạn có thể chọn số trong bộ chọn danh bạ của iOS hoặc nhập tay. ToTimer <strong>không đọc và không tải lên danh bạ</strong> của bạn; chúng tôi chỉ nhận đúng số bạn chọn, dùng để tìm tài khoản ToTimer tương ứng và gửi lời mời.</li>
+      <li><strong>Mã thông báo thiết bị:</strong> mã thông báo đẩy (APNs / Firebase Cloud Messaging) và mã cập nhật Live Activity, dùng để gửi thông báo và cập nhật Live Activity cho bạn.</li>
+      <li><strong>Dữ liệu chẩn đoán:</strong> báo cáo lỗi (crash) qua Firebase Crashlytics, không gắn với tên hay email của bạn. Chúng tôi không bật Firebase Analytics và không dùng dữ liệu để quảng cáo hoặc theo dõi bạn qua các app khác.</li>
+      <li><strong>Giao dịch:</strong> việc mua gói đăng ký do Apple xử lý. Chúng tôi chỉ nhận trạng thái gói (đang dùng hay hết hạn), không nhận số thẻ hay thông tin thanh toán của bạn.</li>
+      <li><strong>Lịch và Ảnh:</strong> khi bạn chọn thêm cuộc hẹn vào Lịch, ToTimer chỉ <em>ghi</em> sự kiện (không đọc lịch của bạn). Khi bạn lưu ảnh tổng kết, ToTimer chỉ <em>thêm</em> ảnh vào Thư viện (không đọc ảnh của bạn).</li>
+    </ul>
+
+    <h2 id="p2">2. Chúng tôi dùng dữ liệu để làm gì</h2>
+    <ul>
+      <li>Cung cấp tính năng: đồng bộ phiên chung, Live Activity, thông báo nhắc, ETA và chia sẻ vị trí.</li>
+      <li>Quản lý Circle: lời mời, thành viên, thống kê của nhóm.</li>
+      <li>Xác minh gói đăng ký và giới hạn số người theo gói.</li>
+      <li>Sửa lỗi và giữ cho app ổn định (báo cáo crash).</li>
+    </ul>
+
+    <h2 id="p3">3. Chia sẻ dữ liệu</h2>
+    <ul>
+      <li><strong>Với người bạn chọn:</strong> thành viên Circle và những người trong cùng phiên thấy tên, màu đại diện, trạng thái và (nếu bạn chia sẻ) vị trí hoặc ETA của bạn.</li>
+      <li><strong>Nhà cung cấp dịch vụ:</strong> Google (Firebase: đăng nhập, cơ sở dữ liệu Firestore, Cloud Functions, Cloud Messaging, Crashlytics) và Apple (thông báo đẩy APNs, StoreKit). Họ xử lý dữ liệu theo chỉ dẫn của chúng tôi để vận hành ToTimer.</li>
+      <li>Chúng tôi <strong>không bán</strong> dữ liệu cá nhân và không chia sẻ cho mục đích quảng cáo. Chúng tôi chỉ tiết lộ dữ liệu khi pháp luật yêu cầu.</li>
+    </ul>
+
+    <h2 id="p4">4. Lưu trữ và xoá dữ liệu</h2>
+    <ul>
+      <li>Dữ liệu tài khoản và dữ liệu đồng bộ được giữ trong thời gian bạn dùng tài khoản.</li>
+      <li><strong>Xoá tài khoản:</strong> trong app, vào <em>Bạn › Cài đặt › Tài khoản &amp; dữ liệu</em> để xoá tài khoản; dữ liệu của bạn trên máy chủ (hồ sơ, Circle, lời mời, vị trí chia sẻ, mã thông báo) sẽ bị xoá. Cũng tại đây bạn có thể <strong>xuất dữ liệu</strong> và <strong>xoá lịch sử hoạt động</strong>.</li>
+      <li>Dữ liệu chỉ lưu trên máy sẽ mất khi bạn xoá app.</li>
+      <li>Việc đăng ký gói do Apple quản lý: xoá tài khoản ToTimer không tự huỷ gói; hãy huỷ trong Cài đặt › Apple ID › Đăng ký.</li>
+    </ul>
+
+    <h2 id="p5">5. Quyền của bạn</h2>
+    <p>Bạn có quyền truy cập, chỉnh sửa, xuất và xoá dữ liệu của mình, rút lại quyền vị trí, thông báo hoặc Lịch bất cứ lúc nào trong Cài đặt iOS, và dừng chia sẻ vị trí ngay trong app. Nếu cần hỗ trợ, hãy liên hệ <a href="mailto:support@totimer.com">support@totimer.com</a>.</p>
+
+    <h2 id="p6">6. Bảo mật</h2>
+    <p>Dữ liệu được truyền qua kết nối mã hoá và lưu trên hạ tầng của Google Cloud. Không hệ thống nào an toàn tuyệt đối; chúng tôi áp dụng các biện pháp hợp lý để bảo vệ dữ liệu và cập nhật chúng khi cần.</p>
+
+    <h2 id="p7">7. Trẻ em</h2>
+    <p>ToTimer không hướng tới trẻ dưới 13 tuổi (hoặc độ tuổi tối thiểu theo luật nơi bạn sống) và chúng tôi không cố ý thu thập dữ liệu của các em. Nếu bạn cho rằng một trẻ đã cung cấp dữ liệu cho chúng tôi, hãy liên hệ để chúng tôi xoá.</p>
+
+    <h2 id="p8">8. Chuyển dữ liệu ra nước ngoài</h2>
+    <p>Máy chủ của nhà cung cấp dịch vụ có thể đặt ở nước khác với nơi bạn sống. Dữ liệu vẫn được bảo vệ theo chính sách này.</p>
+
+    <h2 id="p9">9. Thay đổi chính sách</h2>
+    <p>Khi chính sách thay đổi, chúng tôi cập nhật ngày ở đầu trang này và, nếu thay đổi quan trọng, thông báo trong app.</p>
+
+    <h2 id="p10">10. Liên hệ</h2>
+    <p>Mọi câu hỏi về quyền riêng tư: <a href="mailto:support@totimer.com">support@totimer.com</a>. Điều khoản sử dụng: <a href="/terms/">totimer.com/terms</a>.</p>
+
+  </div>
+  <div class="en">
+
+    <p class="legal-updated">Last updated: November 16, 2026</p>
+    <p class="legal-lead">ToTimer is an iOS app that helps you focus and stay connected with your family through Live Activities on your Lock Screen. This page explains what data ToTimer collects, why, who it is shared with, and how you control it.</p>
+
+    <h2 id="p1">1. Data we collect</h2>
+    <ul>
+      <li><strong>Account:</strong> display name, email address, avatar color; a phone number if you enter one; an account identifier. You can sign in with email and password, Sign in with Apple, or Google. Features that run on your device (for example a personal focus session) do not require an account.</li>
+      <li><strong>Content you create:</strong> focus sessions, projects and tasks, care tasks (with notes and checklists), meetups, trips, activity history and progress (levels, badges). Most of it is stored on your device; sessions shared with your Circle (your family group) and account data are synced to our servers.</li>
+      <li><strong>Location:</strong> only when you <em>start</em> a Trip or start travelling to a Meetup. ToTimer uses precise location on your device to calculate the estimated time of arrival (ETA) and detect when you have arrived. If you choose to share, your location (or only your ETA, or only your status, depending on the level you pick) is sent to <em>the people you selected in that session</em>. Tracking may continue while the app is in the background, shows the iOS location indicator, and stops automatically when you arrive, when it expires, or when you stop it. Shared location is deleted when you stop sharing or the session ends. ToTimer never shares your location unless you have started a session.</li>
+      <li><strong>Phone numbers of people you invite:</strong> when you invite a relative, you can pick a number in the iOS contact picker or type it in. ToTimer <strong>does not read or upload your address book</strong>; we only receive the one number you choose, used to find the matching ToTimer account and send the invitation.</li>
+      <li><strong>Device tokens:</strong> push tokens (APNs / Firebase Cloud Messaging) and Live Activity update tokens, used to deliver notifications and Live Activity updates to you.</li>
+      <li><strong>Diagnostics:</strong> crash reports through Firebase Crashlytics, not linked to your name or email. We do not enable Firebase Analytics and do not use data for advertising or to track you across other apps.</li>
+      <li><strong>Purchases:</strong> subscription purchases are processed by Apple. We only receive the subscription status (active or expired), never your card or payment details.</li>
+      <li><strong>Calendar and Photos:</strong> when you add a meetup to your Calendar, ToTimer only <em>writes</em> the event (it does not read your calendar). When you save a recap image, ToTimer only <em>adds</em> the image to your Photo Library (it does not read your photos).</li>
+    </ul>
+
+    <h2 id="p2">2. How we use data</h2>
+    <ul>
+      <li>To provide the features: syncing shared sessions, Live Activities, reminders, ETA and location sharing.</li>
+      <li>To manage Circles: invitations, members, group statistics.</li>
+      <li>To verify subscriptions and apply plan limits on the number of people.</li>
+      <li>To fix bugs and keep the app stable (crash reports).</li>
+    </ul>
+
+    <h2 id="p3">3. Sharing</h2>
+    <ul>
+      <li><strong>With people you choose:</strong> Circle members and people in the same session see your name, avatar color, status and (if you share it) your location or ETA.</li>
+      <li><strong>Service providers:</strong> Google (Firebase: sign-in, Firestore database, Cloud Functions, Cloud Messaging, Crashlytics) and Apple (APNs push notifications, StoreKit). They process data on our instructions to operate ToTimer.</li>
+      <li>We <strong>do not sell</strong> personal data and do not share it for advertising. We disclose data only when required by law.</li>
+    </ul>
+
+    <h2 id="p4">4. Retention and deletion</h2>
+    <ul>
+      <li>Account and synced data are kept for as long as you use your account.</li>
+      <li><strong>Delete your account:</strong> in the app go to <em>You › Settings › Account &amp; data</em>; your data on our servers (profile, Circle, invitations, shared locations, tokens) is deleted. There you can also <strong>export your data</strong> and <strong>delete your activity history</strong>.</li>
+      <li>Data stored only on your device is removed when you delete the app.</li>
+      <li>Subscriptions are managed by Apple: deleting your ToTimer account does not cancel your subscription; cancel it in Settings › Apple ID › Subscriptions.</li>
+    </ul>
+
+    <h2 id="p5">5. Your rights</h2>
+    <p>You can access, correct, export and delete your data, withdraw location, notification or Calendar access at any time in iOS Settings, and stop location sharing right in the app. For help, contact <a href="mailto:support@totimer.com">support@totimer.com</a>.</p>
+
+    <h2 id="p6">6. Security</h2>
+    <p>Data is transmitted over encrypted connections and stored on Google Cloud infrastructure. No system is perfectly secure; we apply reasonable measures to protect data and update them as needed.</p>
+
+    <h2 id="p7">7. Children</h2>
+    <p>ToTimer is not directed to children under 13 (or the minimum age in your country) and we do not knowingly collect their data. If you believe a child has provided data to us, contact us so we can delete it.</p>
+
+    <h2 id="p8">8. International transfers</h2>
+    <p>Our service providers' servers may be located in a different country from where you live. Data remains protected under this policy.</p>
+
+    <h2 id="p9">9. Changes to this policy</h2>
+    <p>When this policy changes we update the date at the top of this page and, for important changes, notify you in the app.</p>
+
+    <h2 id="p10">10. Contact</h2>
+    <p>Privacy questions: <a href="mailto:support@totimer.com">support@totimer.com</a>. Terms of Use: <a href="/terms/">totimer.com/terms</a>.</p>
+
+  </div>
+</main>
+
+<footer class="legal-footer" role="contentinfo">
+  <div class="legal-footer__inner">
+    <span>© 2026 ToTimer</span>
+    <a href="/">Trang chủ / Home</a>
+    <a href="/privacy/"><span class="vi">Quyền riêng tư</span><span class="en">Privacy Policy</span></a>
+    <a href="/terms/"><span class="vi">Điều khoản sử dụng</span><span class="en">Terms of Use</span></a>
+    <a href="mailto:support@totimer.com">support@totimer.com</a>
+  </div>
+</footer>
+
+<script src="/legal.js"></script>
+</body>
+</html>
